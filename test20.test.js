@@ -1,5 +1,7 @@
+const testData = require('./testData.js');
+
 describe('test', () => {
   it('runs a simple test', () => {
-    expect(1).toBe(1);
+    expect(testData).toEqual(testData);
   });
 });
