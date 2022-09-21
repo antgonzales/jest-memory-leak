@@ -2,6 +2,10 @@
   "name": "jest-memory-leak",
   "version": "0.0.0",
   "description": "A demo repo to highlight Jest's memory leak issue",
+   "engines" : {
+    "npm" : ">=8.5.0",
+    "node" : ">=16.15.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node --inspect-brk node_modules/jest/bin/jest --runInBand --logHeapUsage --detectLeaks --watch"
@@ -17,7 +21,7 @@
   },
   "homepage": "https://github.com/antgonzales/jest-26.6.3-memory-leak#readme",
   "devDependencies": {
-    "jest": "^26.6.3",
+    "jest": "^29.0.3",
     "weak-napi": "^2.0.2"
   }
 }
