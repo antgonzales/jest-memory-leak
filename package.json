@@ -1,5 +1,5 @@
 {
-  "name": "jest-26.6.3-memory-leak",
+  "name": "jest-memory-leak",
   "version": "0.0.0",
   "description": "A demo repo to highlight Jest's memory leak issue",
   "main": "index.js",
